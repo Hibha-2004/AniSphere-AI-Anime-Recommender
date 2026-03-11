@@ -70,6 +70,6 @@ anisphere/
 ## Tech Stack
 - **Frontend:** React + Vite
 - **Backend:** Node.js + Express
-- **AI:** Google Gemini 1.5 Flash
+- **AI:** Google Gemini 2.5 Flash
 - **Anime Data:** Jikan API (MyAnimeList)
 - **Fonts:** Bebas Neue, Outfit, Noto Sans JP
