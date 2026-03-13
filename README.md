@@ -1,12 +1,20 @@
 # ⬡ AniSphere — AI Anime Recommender
 
-An AI-powered anime discovery website built with React, Node.js, Google Gemini API, and Jikan (MyAnimeList) API.
+🎌 Discover your next anime obsession. AniSphere uses Google Gemini AI to generate personalized recommendations based on your mood, genres, and watch history — with real posters and MAL scores.
+
+---
+
+## Live Demo
+
+- [ani-sphere-ai-anime-recommender.vercel.app](https://ani-sphere-ai-anime-recommender.vercel.app)
+
+---
 
 ## Features
 - 🤖 Gemini AI generates personalized anime recommendations
 - 🖼️ Real anime posters fetched from MyAnimeList via Jikan API
 - ⭐ Shows MAL scores, episode counts, genres, studios
-- 🌌 Stunning dark UI with starfield animation
+- 🌹 Elegant Rose Quartz dark theme
 
 ---
 
