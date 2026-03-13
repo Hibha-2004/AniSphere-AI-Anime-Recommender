@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-- 🔗 [ani-sphere-ai-anime-recommender.vercel.app](https://ani-sphere-ai-anime-recommender.vercel.app)
+🔗 [ani-sphere-ai-anime-recommender.vercel.app](https://ani-sphere-ai-anime-recommender.vercel.app)
 
 ---
 
