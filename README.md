@@ -1,6 +1,6 @@
 # ⬡ AniSphere — AI Anime Recommender
 
-🎌 Discover your next anime obsession. AniSphere uses Google Gemini AI to generate personalized recommendations based on your mood, genres, and watch history — with real posters and MAL scores.
+Discover your next anime obsession. AniSphere uses Google Gemini AI to generate personalized recommendations based on your mood, genres, and watch history — with real posters and MAL scores.
 
 ---
 
@@ -11,10 +11,10 @@
 ---
 
 ## Features
-- 🤖 Gemini AI generates personalized anime recommendations
-- 🖼️ Real anime posters fetched from MyAnimeList via Jikan API
-- ⭐ Shows MAL scores, episode counts, genres, studios
-- 🌹 Elegant Rose Quartz dark theme
+- Gemini AI generates personalized anime recommendations
+- Real anime posters fetched from MyAnimeList via Jikan API
+- Shows MAL scores, episode counts, genres, studios
+- Elegant Rose Quartz dark theme
 
 ---
 
