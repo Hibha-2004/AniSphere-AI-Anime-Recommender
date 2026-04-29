@@ -55,11 +55,13 @@ Each object must have exactly these keys:
 - "type": string (e.g. "TV Series", "Movie", "OVA")`;
 
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });;
     const result = await model.generateContent(prompt);
     const text = result.response.text();
     const clean = text.replace(/```json|```/g, "").trim();
-    const recommendations = JSON.parse(clean);
+    const jsonMatch = clean.match(/\[[\s\S]*\]/);
+    if (!jsonMatch) throw new Error("No JSON array found in response");
+    const recommendations = JSON.parse(jsonMatch[0]);
 
     // Fetch images from Jikan for each anime (with small delay to respect rate limit)
     const enriched = [];
