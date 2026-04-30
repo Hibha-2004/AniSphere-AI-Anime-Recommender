@@ -96,7 +96,7 @@ export default function App() {
       setResults(data.recommendations);
       setTimeout(() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
     } catch (e) {
-      setError("Something went wrong. Please check your API key and try again.");
+      setError("Something went wrong. Please try again later.");
     } finally {
       clearInterval(interval);
       setLoading(false);
